@@ -1,0 +1,33 @@
+.swiper-container {
+    width: 100%;
+    height: 450px;
+    max-width: 354px;
+    /*background-color: #489f46;*/
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+}
+@media only screen and (max-width: 992px) {
+    .qty-wrapper input[type="text"] {
+        width: 14%;
+        float: left;
+    }
+    .qty-wrapper .qty-minus, .qty-wrapper .qty-plus{
+        width: 14%;
+        float: left;
+    }
+    .reserve-time{
+        float: none;
+    }
+    .submit-wrapper{
+        margin-top: 3rem;
+    }
+    .price-wrapper{
+        text-align: center;
+    }
+
+}
